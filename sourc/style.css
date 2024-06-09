@@ -18,26 +18,32 @@ body {
     padding-left: 15px;
     padding-right: 15px;
 }
-/* Small */
+
 @media (min-width: 768px) {
   .container {
     width: 750px;
   }
 }
 /* Medium */
-@media (min-width: 992px) {
+ @media (min-width: 992px) {
   .container {
     width: 970px;
   }
 
-}
+} 
 /* Large */
-@media (min-width: 1200px) {
+ @media (min-width: 1200px) {
   .container {
     width: 1170px;
   }
-}
-.logo:hover {
+}  
+/* CSS Responsive Design */
+
+/* Mobile-first approach */
+
+
+
+.logo:hover {  
   transform: rotate(360deg);
   transition: all 5s 0s;
 }
@@ -94,7 +100,7 @@ header .links li:hover {
 }
 .lading {
     height: 80vh;
-    width: 100%;
+    max-width: 100%;
     background-image: url(picture/firmbee-com-gcsNOsPEXfs-unsplash.jpg);
     background-size: cover;
     position: relative;
